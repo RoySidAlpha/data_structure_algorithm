@@ -1,2 +1,4 @@
-bubble_sort
-/linked_list/singly_linked_list/singly_linked_list
+#Accept all .cpp, .cxx, .h file
+!*.cpp
+!*.cxx
+!*.h
