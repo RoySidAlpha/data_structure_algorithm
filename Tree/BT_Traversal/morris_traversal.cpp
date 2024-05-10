@@ -43,11 +43,12 @@ void morris_traversal (TreeNode* root) {
                 previous = previous->right;
             if (previous->right == nullptr) {   // if the right most node is null then create the link to root and move to left
                 previous->right = current;
+                // cout << current->info << " "; // for preorder (delete the print in else part) as before going to left print the current node
                 current = current->left;
             }
             else {
                 previous->right = nullptr;  // if the link already exist that means the left subtree is already visited, so, delink it, print the node and move right
-                cout << current->info << " ";
+                cout << current->info << " ";   // remove this for preorder traversal
                 current = current->right;
             }
         }
