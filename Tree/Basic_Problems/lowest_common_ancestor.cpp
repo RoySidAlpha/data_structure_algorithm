@@ -21,8 +21,6 @@
 // LCA of (4,6) : 4
 
 #include<iostream>
-#include <sstream>
-#include <string>
 
 using namespace std;
 
