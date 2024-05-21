@@ -93,7 +93,7 @@ TreeNode* createTreeFromParentArray (std::vector <int> parent_array) {
 
 int main()
 {
-    std::vector <int> parent_array = {-1, 0, 0, 1, 1, 3, 5};
+    std::vector <int> parent_array = {-1, 0, 0, 1, 1, 3, 5, 0, 4};
     display DISPLAY;
     DISPLAY.root = createTreeFromParentArray (parent_array);
     DISPLAY.display_level_order();
